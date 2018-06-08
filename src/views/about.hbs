@@ -1,0 +1,78 @@
+<div class="nopadding page-content" ng-controller="commonCtrl">
+    <!--Content Here-->
+    <div class="uk-grid full-height scrollable" style="padding: 0 15px">
+        <div class="uk-width-1-2" style="padding:25px 0 0 0;">
+            <!--<img class="uk-responsive-width" src="img/TD_Black.png" alt="">-->
+          
+    <img src="img/TD_Black.png" width="250px" style="margin-left:25px;" />
+            <div style="padding-left: 40px;">
+                <h6 style="color: #55616e;">HelpDesk version {{data.version}} <span style="font-size: 10px;"></span>
+                </h6>
+                <p style="color: #55616e; font-size: 12px;">
+                    Copyright &copy;2018-2019 Monty Chawda <br> <br>
+
+                   
+                <hr style="width: 100%; height: 1px; background: #e74c3c">
+                <p style="color: #55616e; font-size: 12px; margin-bottom: 5px;">
+                    This software uses the following third party plugins:
+                </p>
+                <ul style="
+                list-style:none;
+                font-size: 11px;
+                color: #55616e;
+                padding: 0;
+                margin: 0;
+            ">
+                    <li>AngularJS - <a href="https://angularjs.org/" target="_blank">https://angularjs.org/</a></li>
+                    <li>Chosen - <a href="https://harvesthq.github.io/chosen/" target="_blank">https://harvesthq.github.io/chosen/</a>
+                    </li>
+                    <li>D3 - <a href="https://d3js.org/" target="_blank">https://d3js.org/</a></li>
+                    <li>Datatables - <a href="https://www.datatables.net/" target="_blank">https://www.datatables.net/</a>
+                    </li>
+                    <li>Easy Pie Chart - <a href="https://rendro.github.io/easy-pie-chart/" target="_blank">https://rendro.github.io/easy-pie-chart/</a>
+                    </li>
+                    <li>History.JS - <a href="https://github.com/browserstate/history.js/" target="_blank">https://github.com/browserstate/history.js/</a>
+                    </li>
+                    <li>jQuery - <a href="https://jquery.com/" target="_blank">https://jquery.com/</a></li>
+                    <li>Js-cookie - <a href="https://github.com/js-cookie/js-cookie" target="_blank">https://github.com/js-cookie/js-cookie</a></li>
+                    <li>Lodash - <a href="http://lodash.com/" target="_blank">http://lodash.com/</a></li>
+                    <li>MetricsGraphics.js - <a href="http://metricsgraphicsjs.org/" target="_blank">http://metricsgraphicsjs.org/</a>
+                    </li>
+                    <li>PACE - <a href="http://github.hubspot.com/pace/docs/welcome/" target="_blank">http://github.hubspot.com/pace/docs/welcome/</a>
+                    </li>
+                    <li>Simple Color Picker - <a href="https://github.com/tkrotoff/jquery-simplecolorpicker"
+                                                 target="_blank">https://github.com/tkrotoff/jquery-simplecolorpicker</a>
+                    </li>
+                    <li>Selectize.js - <a href="http://selectize.github.io/selectize.js/" target="_blank">http://selectize.github.io/selectize.js/</a>
+                    </li>
+                    <li>Snackbar - <a href="http://www.polonel.com/snackbar"
+                                      target="_blank">http://www.polonel.com/snackbar</a></li>
+                    <li>To Markdown - <a href="https://github.com/domchristie/to-markdown" target="_blank">https://github.com/domchristie/to-markdown</a>
+                    </li>
+                    <li>UIKit - <a href="http://getuikit.com" target="_blank">http://getuikit.com</a></li>
+                    <li>Webpack - <a href="https://webpack.github.io/" target="_blank">https://webpack.github.io/</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="uk-width-1-2" style="padding:45px 0 0 40px;">
+
+        </div>
+    </div>
+
+    <div id="privacyPolicyWindow" class="uk-modal" aria-labelledby="privacyPolicy" aria-hidden="true" role="dialog">
+        <div class="uk-modal-dialog uk-modal-dialog-large uk-clearfix" style="padding-top: 70px;">
+            <div style="width: 100%; height: 50px; background-color: #f6f6f6; margin-bottom: 5px;position:absolute;top: 0;left: 0; padding: 7px 25px;">
+                <h4 style="font-size: 24px; margin-top: 7px; font-weight: 300;color: #222;">
+                    Privacy Policy
+                    <a class="uk-modal-close uk-close no-ajaxy right" aria-label="Close"></a>
+                </h4>
+            </div>
+            <div>
+                {{{data.privacyPolicy}}}
+            </div>
+        </div>
+    </div>
+
+</div>
